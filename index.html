@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <style>
       .font-bebas {
         font-family: "Bebas Neue", sans-serif;
@@ -26,7 +26,7 @@
     </style>
   </head>
   <body>
-    <header class="bg-[#e8ff966e] py-20 px-4 md:px-32">
+    <header class="bg-[#e8ff966e] py-5 px-4 md:px-32">
       <!-- nav section -->
       <nav class="flex justify-between">
             <div class="logo items-center">
@@ -49,7 +49,7 @@
             <span class="text-[#AFD689]">The T-shirt</span><br />You Need
           </h1>
           <p>Make yourself stylish and fashionable</p>
-          <button
+          <button id="im-btn"
             class="py-4 px-9 bg-gradient-to-r from-[#82b94b] to-[#b1d67f] rounded-xl uppercase text-white font-medium"
           >
             <svg
@@ -367,6 +367,45 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-[#000000cb] text-white py-8">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Contact Info -->
+          <div class="md:col-span-2">
+            <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+            <img class="" src="images/Anik.png" alt="">
+            <p class="mb-2">Basabo, Dhaka-1214</p>
+            <p class="mb-2">Dhaka, Bangladesh</p>
+            <p class="mb-2">Phone: +88012345678</p>
+            <p>Email:anik97287@gmail.com</p>
+          </div>
+          
+          <!-- Social Media Links -->
+          <div>
+            <h2 class="text-2xl font-semibold mb-4">Follow Us</h2>
+            <div class="flex space-x-4">
+              <a href="#" class="text-white hover:text-gray-300">
+                <img src="icons/facebook.png" alt="">
+              </a>
+              <a href="#" class="text-white hover:text-gray-300">
+                <img src="icons/instagram.png" alt="">
+              </a>
+              <a href="#" class="text-white hover:text-gray-300">
+                <img src="icons/tiktok.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <p>&copy; 2023 MyTees by Kawsar Anik. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+
+
+
+
+    
   </body>
 </html>
