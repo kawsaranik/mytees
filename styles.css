@@ -31,7 +31,14 @@ nav li:hover {
       padding-bottom: 20px;
     }
     nav ul>li{
-        padding: 3px 5px;
+        padding: 3px 3px;
+        gap: 2px;
         text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width: 400px){
+    nav ul>li{
+        display: none;
     }
 }
