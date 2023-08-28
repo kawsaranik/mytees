@@ -25,6 +25,10 @@ nav li:hover {
   }
 
 
+  main{
+    padding: 0px 15px;
+}
+
 @media screen and (max-width: 576px) {
     nav {
       flex-direction: column;
@@ -34,6 +38,9 @@ nav li:hover {
         padding: 3px 3px;
         gap: 2px;
         text-transform: capitalize;
+    }
+    main{
+        padding: 0px 15px;
     }
 }
 
